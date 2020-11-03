@@ -1,0 +1,101 @@
+body {
+    cursor: default;
+    background-color: #6892b9;
+    display: flex;
+    align-items: center; 
+    justify-content: center; 
+    text-align: center;
+}
+
+.brand {
+    font-size: 6rem;
+    height: 10rem;
+    width: min-content;
+    color: rgb(66, 117, 146);
+    opacity: 0.5;
+    align-items: center;
+    padding-top: 5rem;
+    transition: all 1s ease;
+    font-family: 'Rubik', sans-serif;
+}
+
+.brand:hover {
+    color: bisque;
+    opacity: 1;
+    font-size: 7rem;
+    padding: 2rem;
+}
+
+.desc {
+    font-size: 2rem;
+    padding-left: 3rem;
+    padding-right: 2rem;
+    height: 7.5rem;
+    width: auto;
+    color: rgb(66, 117, 146);
+    opacity: 0.5;
+    align-items: center;
+    padding-top: 5rem;
+    transition: all 1s ease;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.desc:hover {
+    color: bisque;
+    opacity: 1;
+    font-size: 3rem;
+    padding: 2rem;
+}
+
+.watermark {
+    font-size: 1rem;
+    padding-left: 2rem;
+    height: 3rem;
+    width: auto;
+    color: rgb(66, 117, 146);
+    opacity: 0.5;
+    position:absolute;                  
+    bottom:0;                          
+    right:3rem;
+    transition: all 1s ease;
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+.watermark:hover {
+    color: bisque;
+    opacity: 1;
+    font-size: 2rem;
+    bottom: 2rem;
+}
+
+a {
+    color: #92da40ce;
+    text-decoration: none;
+}
+
+button {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    size: 2rem;
+    font-size: 2rem;
+    align-items: center;
+    padding: 2rem;
+    color: #153655;
+    opacity: 0.6;
+    transition: all 0.5s ease;
+    display: flex;
+}
+
+
+button:hover {
+    color: #4be2c1;
+    opacity: 1;
+    size: 4rem;
+    font-size: 4rem;
+}
+
+video {
+    padding-left: 5rem;
+    display: none;
+}
